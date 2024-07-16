@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url("public/eclipse.avif"); /* Sets the background image */
+  background-image: url("../public/eclipse.avif"); /* Sets the background image */
 
   /* Takes Full width  */
   /* background-size: contain; */

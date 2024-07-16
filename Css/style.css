@@ -78,8 +78,7 @@ li {
 
 .hero {
   color: white;
-
-  background-image: url("public/space.avif"); /* Set the background image */
+  background-image: url("../public/space.avif"); /* Set the background image */
   background-size: cover; /* Scale the image to cover the entire element */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
