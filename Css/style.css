@@ -1,0 +1,86 @@
+:root {
+  --dark: black;
+  --light: white;
+}
+/* Resets  */
+* {
+  padding: 0;
+  margin: 0;
+  /* outline: 1px solid orangered; */
+}
+body {
+  font-size: 2rem;
+}
+
+/* a {
+    text-decoration: none;
+    color: var(--text);
+  }
+  a:hover {
+    text-decoration: underline;
+  } */
+li {
+  list-style: none;
+}
+
+/* Util  */
+.container {
+  width: 60rem;
+}
+/* .container {
+    width: min(60rem, 100% - 4rem);
+    margin-inline: auto;
+  } */
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.darkMode {
+  background-color: var(--dark);
+  color: white;
+}
+.darkMode a {
+  color: var(--light);
+}
+.darkMode .fa-sun {
+  color: var(--light);
+}
+/* General styles  */
+
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.btn i {
+  font-size: 2.5rem;
+}
+
+/* Components  */
+.navbar {
+  height: 64px;
+  background-color: lightblue;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure it stays on top of other elements */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar li {
+  margin-inline: 10px;
+}
+
+.hero {
+  color: white;
+
+  background-image: url("public/space.avif"); /* Set the background image */
+  background-size: cover; /* Scale the image to cover the entire element */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
