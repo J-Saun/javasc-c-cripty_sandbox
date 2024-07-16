@@ -1,0 +1,36 @@
+body {
+  /* Demonstrate sticky nav  */
+  height: 200vh;
+}
+
+.container {
+  width: 100%;
+  height: 50vh;
+
+  /* Flex Center */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+  /* Grid Center  */
+  /* display: grid; */
+  /* Center both horizontally and vertically */
+  /* place-items: center; */
+  /* Center Horizontally  */
+  /* justify-items: center; */
+  /* Center vertically */
+  /* align-items: center; */
+
+  /* Absolute center  */
+  /* position: relative; */
+}
+.child {
+  /* Margin Auto (Horizontally) */
+  width: min-content;
+  margin: auto;
+
+  /* absolute center  */
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+}

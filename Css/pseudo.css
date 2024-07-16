@@ -1,0 +1,22 @@
+a {
+  position: relative; /* Necessary for positioning the :after pseudo-element */
+  text-decoration: none; /* Remove default underline */
+  color: #000; /* Set the text color */
+}
+
+/* Style for the :after pseudo-element */
+a:after {
+  content: ""; /* No text content, just the line */
+  position: absolute; /* Position relative to the <a> tag */
+  width: 100%; /* Full width of the <a> tag */
+  height: 2px; /* Thickness of the underline */
+  bottom: -20px; /* Position at the bottom of the <a> tag */
+  background-color: orangered; /* Color of the underline */
+  transform: scaleX(0); /* Scale down to zero width */
+  transition: all 0.3s ease-in-out; /* Smooth transition for the scaling */
+}
+/* Style for the :after pseudo-element on hover */
+a:hover:after {
+  visibility: visible; /* Make the underline visible */
+  transform: scaleX(1); /* Scale to full width */
+}

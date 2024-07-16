@@ -1,0 +1,22 @@
+.resized-image {
+  /* height: 300px; */
+  width: 300px; /* Sets the width of the image */
+  height: auto;
+  border-radius: 10%; /* Creates a circular image */
+  object-fit: cover; /* The image covers the entire container */
+  /* Automatically adjusts height to maintain aspect ratio */
+}
+
+body {
+  background-image: url("public/eclipse.avif"); /* Sets the background image */
+
+  /* Takes Full width  */
+  /* background-size: contain; */
+  /* Bad Behavior  */
+  /* background-repeat: no-repeat; */
+
+  /* Ensures the image covers the entire element */
+  /* background-size: cover;  */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+}
